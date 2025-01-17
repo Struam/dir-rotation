@@ -6,8 +6,7 @@
   "require": {
     "php": ">=8.3",
     "ext-mbstring": "*",
-    "ext-zip": "*",
-    "struam/dir-rotation": "dev-master"
+    "ext-zip": "*"
   },
   "autoload": {
     "psr-4": {
