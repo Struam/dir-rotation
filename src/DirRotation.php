@@ -183,7 +183,7 @@ class DirRotation
      * @return void
      * @throws Exception
      */
-    private function setWorkingDirectory(string $workingDirectory): void
+    private function setWorkingDirectory(string $workingDirectory = null): void
     {
 
         // If no directory is specified, set the current working directory
