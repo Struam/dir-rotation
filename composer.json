@@ -1,0 +1,32 @@
+{
+  "name": "struam/dir-rotation",
+  "description": "PHP library for directory rotation",
+  "type": "library",
+  "keywords": ["php83", "dir", "rotation"],
+  "require": {
+    "php": ">=8.3",
+    "ext-mbstring": "*",
+    "ext-zip": "*",
+    "struam/dir-rotation": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Struam\\DirRotation\\": "src/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Struam/dir-rotation"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Rustam Kadirov",
+      "email": "struam@gmail.com"
+    }
+  ]
+}
